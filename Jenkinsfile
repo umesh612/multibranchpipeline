@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('New') {
             steps {
-                echo 'Building..'
+                echo 'this is 2nd branch'
             }
         }
        
