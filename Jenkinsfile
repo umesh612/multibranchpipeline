@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Third Branch') {
             steps {
-                echo 'Building..'
+                echo 'this is 3rd branch'
             }
         }
        
